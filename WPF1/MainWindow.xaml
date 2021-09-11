@@ -20,6 +20,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="btnConsulta" Click="btnConsulta_Click" >Consultar</Button>
+                <TextBox x:Name="txtBuscar" Height="20" TextWrapping="Wrap" Width="238"/>
             </StackPanel>
             <StackPanel>
                 <DataGrid Height="180px" x:Name="dgvPeople" AutoGenerateColumns="True"

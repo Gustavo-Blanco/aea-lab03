@@ -40,13 +40,13 @@ namespace WPF1
             SqlParameter sqlParameter1 = new SqlParameter();
             sqlParameter1.SqlDbType = SqlDbType.VarChar;
             sqlParameter1.Size = 50;
-            sqlParameter1.Value = "";
+            sqlParameter1.Value = txtBuscar.Text.ToString();
             sqlParameter1.ParameterName = "@LastName";
 
             SqlParameter sqlParameter2 = new SqlParameter();
             sqlParameter2.SqlDbType = SqlDbType.VarChar;
             sqlParameter2.Size = 50;
-            sqlParameter2.Value = "";
+            sqlParameter2.Value = txtBuscar.Text.ToString();
             sqlParameter2.ParameterName = "@FistName";
 
             command.Parameters.Add(sqlParameter1);
